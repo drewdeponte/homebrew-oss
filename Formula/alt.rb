@@ -1,12 +1,12 @@
 class Alt < Formula
   desc "command-line utility to find alternate file"
   homepage "https://github.com/uptech/alt"
-  url "https://github.com/uptech/alt/releases/download/v2.0.1/alt-2.0.1-x86_64-apple-darwin"
-  version "2.0.1"
-  sha256 "d472c7ee484c7f5f3320a55b5a73ef6b37599c7b90e0e5b90bfc8a25d36369b4"
+  url "https://github.com/uptech/alt/releases/download/v2.1.0/alt-2.1.0-x86_64-apple-darwin"
+  version "2.1.0"
+  sha256 "9bbc088de8d74b3c2788163161958ef986f499ef13e8ec242f6eb5bec06d7da6"
 
   def install
-    mv "alt-2.0.1-x86_64-apple-darwin", "alt"
+    mv "alt-2.1.0-x86_64-apple-darwin", "alt"
     bin.install "alt"
   end
 
