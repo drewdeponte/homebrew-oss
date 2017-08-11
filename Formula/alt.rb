@@ -1,13 +1,18 @@
 class Alt < Formula
   desc "command-line utility to find alternate file"
   homepage "https://github.com/uptech/alt"
-  url "https://github.com/uptech/alt/releases/download/v2.3.0/alt-2.3.0-x86_64-apple-darwin"
+  url "https://github.com/uptech/alt/archive/v2.3.0.tar.gz"
   version "2.3.0"
-  sha256 "255049848f8da5cfb387f80b63fb264f0028a8ce1b8035ae659cc3e3499581eb"
+  sha256 "f6f4393a85f0fa0ecc9c65c2a7b0bafc2b5863c632c00c33239dd98ec05433d7"
+  head "https://github.com/uptech/alt.git"
+
+  depends_on "rust" => :build
 
   def install
-    mv "alt-2.3.0-x86_64-apple-darwin", "alt"
-    bin.install "alt"
+    system "cargo", "build", "--release"
+
+    bin.install "target/release/alt"
+    # man1.install "doc/alt.1" # only in versions > 2.3.0
   end
 
   test do
