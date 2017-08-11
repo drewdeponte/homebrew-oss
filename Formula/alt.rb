@@ -8,6 +8,10 @@ class Alt < Formula
 
   depends_on "rust" => :build
 
+  bottle do
+    sha256 "9f8932bace61b4a25285a4e80ad8c30fd0dc01e08266c57c189bedb89f190383" => :sierra
+  end
+
   def install
     system "cargo", "build", "--release"
 
