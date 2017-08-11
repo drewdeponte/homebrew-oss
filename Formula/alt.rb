@@ -10,7 +10,7 @@ class Alt < Formula
 
   bottle do
     root_url "https://github.com/uptech/homebrew-oss/raw/master/Formula/"
-    sha256 "9f8932bace61b4a25285a4e80ad8c30fd0dc01e08266c57c189bedb89f190383" => :sierra
+    sha256 "17be462e0f8157a55a091abbed2decf16ef701bd4e27276ca49f995a59f73402" => :sierra
   end
 
   def install
