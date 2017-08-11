@@ -9,7 +9,7 @@ class Alt < Formula
   depends_on "rust" => :build
 
   bottle do
-    root_url "https://github.com/uptech/homebrew-oss/raw/master/Formula/"
+    root_url "https://github.com/uptech/homebrew-oss/raw/master/Formula"
     sha256 "17be462e0f8157a55a091abbed2decf16ef701bd4e27276ca49f995a59f73402" => :sierra
   end
 
