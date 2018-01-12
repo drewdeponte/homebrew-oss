@@ -1,16 +1,16 @@
 class Alt < Formula
   desc "command-line utility to find alternate file"
   homepage "https://github.com/uptech/alt"
-  url "https://github.com/uptech/alt/archive/v2.4.0.tar.gz"
-  version "2.4.0"
-  sha256 "0d255058dc9b0c23d393bc0e450c5caa9c6e3b2ada31317df69f161149792c18"
+  url "https://github.com/uptech/alt/archive/v3.0.0.tar.gz"
+  version "3.0.0"
+  sha256 "00a4010243a0c1d0d01a707cddf5e1a2c547208e734a6c3943517e657ee96c37"
   head "https://github.com/uptech/alt.git"
 
   depends_on "rust" => :build
 
   bottle do
     root_url "https://github.com/uptech/homebrew-oss/raw/master/Formula"
-    sha256 "17be462e0f8157a55a091abbed2decf16ef701bd4e27276ca49f995a59f73402" => :sierra
+    sha256 "8290c9132e64f60f75cf174735bd92b4fdddb86f43e55834413c53942f4c41ef" => :high_sierra
   end
 
   def install
