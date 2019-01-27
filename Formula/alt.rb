@@ -1,16 +1,17 @@
 class Alt < Formula
   desc "command-line utility to find alternate file"
   homepage "https://github.com/uptech/alt"
-  url "https://github.com/uptech/alt/archive/v3.0.0.tar.gz"
-  version "3.0.0"
-  sha256 "00a4010243a0c1d0d01a707cddf5e1a2c547208e734a6c3943517e657ee96c37"
+  url "https://github.com/uptech/alt/archive/v3.1.0.tar.gz"
+  version "3.1.0"
+  sha256 "8e308dacd2fe6ff3b4a5721b79ed65b140ca8c04d0741506342534fa3664a6c5"
   head "https://github.com/uptech/alt.git"
 
   depends_on "rust" => :build
 
   bottle do
     root_url "https://github.com/uptech/homebrew-oss/raw/master/Formula"
-    sha256 "8290c9132e64f60f75cf174735bd92b4fdddb86f43e55834413c53942f4c41ef" => :high_sierra
+    cellar :any_skip_relocation
+    sha256 "a86c08a2fe61c3ae7ca4225a97cb8b7f31635e97407e082836f4cec8083b8116" => :mojave
   end
 
   def install
