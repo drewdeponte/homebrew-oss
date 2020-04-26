@@ -1,7 +1,7 @@
 class GitPs < Formula
   desc "Patch Stack workflow CLI extension for Git"
   homepage "https://github.com/uptech/git-ps"
-  url "https://github.com/uptech/git-ps.git", :tag => "0.3.0", :revision => "cb90fe9c255e60dd5fffce19b3eb50ef2f8f5981"
+  url "https://github.com/uptech/git-ps.git", :tag => "0.3.1", :revision => "37fd4490de30d02fe89f4d9cd930789831b6789f"
   head "https://github.com/uptech/git-ps.git"
 
   depends_on :xcode => ["10.13", :build]
