@@ -1,7 +1,7 @@
 class GitCl < Formula
   desc "Git Changelog management CLI extension for Git"
   homepage "https://github.com/uptech/git-cl"
-  url "https://github.com/uptech/git-cl.git", :tag => "v2.0.0", :revision => "591d7c146631a4d4645fa5a4fb4d8e3eed3affae"
+  url "https://github.com/uptech/git-cl.git", :tag => "v3.0.0", :revision => "d6d4c124e74a2e6fcb0d8f09b84818e6261f9077"
   head "https://github.com/uptech/git-cl.git"
 
   depends_on :xcode => ["10.13", :build]
