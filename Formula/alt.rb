@@ -1,9 +1,9 @@
 class Alt < Formula
   desc "command-line utility to find alternate file"
   homepage "https://github.com/uptech/alt"
-  url "https://github.com/uptech/alt/archive/v3.2.0.tar.gz"
-  version "3.2.0"
-  sha256 "008d33911305de5359d8976d197618aa5302ac556f7082db84faf6554cfd9c56"
+  url "https://github.com/uptech/alt/archive/v3.3.0.tar.gz"
+  version "3.3.0"
+  sha256 "d543d102165bd4f74a60d259fb292028ab111b1051b1403842019db351601a78"
   head "https://github.com/uptech/alt.git"
 
   depends_on "rust" => :build
