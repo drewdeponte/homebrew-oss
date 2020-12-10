@@ -9,7 +9,7 @@ class GitPs < Formula
   bottle do
     root_url "https://github.com/uptech/homebrew-oss/raw/master/Formula"
     cellar :any_skip_relocation
-    sha256 "659c07e364fb098e4b5de3f901e9e60c5075c8caa23a2717cb1c6aff03f5bbb2" => :catalina
+    sha256 "cab22bc2932817c9255bc6ba73a9cf9f4787eb58d5a6244f061e9be5ec0bc801" => :big_sur
   end
 
   def install
