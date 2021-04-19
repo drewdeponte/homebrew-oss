@@ -9,7 +9,6 @@ class Alt < Formula
   bottle do
     # root_url "https://homebrew.bintray.com/bottles-oss"
     root_url "https://github.com/uptech/homebrew-oss/raw/master/Formula"
-    rebuild 1
     sha256 cellar: :any_skip_relocation, catalina: "60fea07c7562f910b0376c661517642f99cbdc8e430231d375c348c09613c3e9"
     sha256 cellar: :any_skip_relocation, big_sur: "60fea07c7562f910b0376c661517642f99cbdc8e430231d375c348c09613c3e9"
   end
