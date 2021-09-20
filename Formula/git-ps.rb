@@ -6,8 +6,8 @@ class GitPs < Formula
 
   bottle do
     root_url "https://github.com/uptech/homebrew-oss/raw/master/Formula"
-    sha256 cellar: :any_skip_relocation, big_sur: "19e706c3a505a692ae4e7d3ac3d66b68ac56b2455fe1eef37a0531a60dbe9abb"
-    sha256 cellar: :any_skip_relocation, catalina: "19e706c3a505a692ae4e7d3ac3d66b68ac56b2455fe1eef37a0531a60dbe9abb"
+    sha256 cellar: :any_skip_relocation, big_sur: "0758f73b1e503a695a92dc9dad83eb6574e0b3ec6e181bbea6cf971fa4221efa"
+    sha256 cellar: :any_skip_relocation, catalina: "0758f73b1e503a695a92dc9dad83eb6574e0b3ec6e181bbea6cf971fa4221efa"
   end
 
   depends_on xcode: ["10.13", :build]
