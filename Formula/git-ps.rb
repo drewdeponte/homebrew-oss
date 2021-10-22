@@ -1,7 +1,7 @@
 class GitPs < Formula
   desc "Patch Stack workflow CLI extension for Git"
   homepage "https://github.com/uptech/git-ps"
-  url "https://github.com/uptech/git-ps.git", tag: "1.1.0", revision: "3dbd120b96c02ea9a8d210e7996a8fb0ed517561"
+  url "https://github.com/uptech/git-ps.git", tag: "1.1.1", revision: "2c77c3f15aeb79178e5861b1fdd310dcf73024eb"
   head "https://github.com/uptech/git-ps.git"
 
   bottle do
