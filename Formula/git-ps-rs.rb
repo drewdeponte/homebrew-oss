@@ -8,6 +8,7 @@ class GitPsRs < Formula
     root_url "https://github.com/uptech/homebrew-oss/raw/master/Formula"
     rebuild 1
     sha256 cellar: :any, monterey: "3d57b6362d96a15def0380eca34899fb9832d086bdabe7cef9f5b305c60de728"
+    sha256 cellar: :any, arm64_monterey: "5bc6c428fc7c6b558435df53bcddbded6359e35b18d638099b4000b91df5bdda"
   end
 
   depends_on "rust" => :build
