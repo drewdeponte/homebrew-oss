@@ -1,10 +1,11 @@
 class GitPsRs < Formula
   desc "Git Patch Stack workflow CLI"
   homepage "https://github.com/uptech/git-ps-rs"
-  url "https://github.com/uptech/git-ps-rs.git", tag: "3.1.1", revision: "92a0e9ecec976ef0ee5eca381196a4912a61c032"
+  url "https://github.com/uptech/git-ps-rs.git", tag: "3.2.0", revision: "584ae9e48c5413e73af865e3799a90688655d23f"
   head "https://github.com/uptech/git-ps-rs.git"
 
   depends_on "rust" => :build
+  depends_on "gpgme"
 
   def install
     system "cargo", "install", *std_cargo_args
