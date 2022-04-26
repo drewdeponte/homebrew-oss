@@ -12,7 +12,7 @@ class GitPsRs < Formula
   end
 
   depends_on "rust" => :build
-  depends_on "gpgme"
+  depends_on "gpgme" => :build
 
   def install
     system "cargo", "install", *std_cargo_args
