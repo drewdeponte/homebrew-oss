@@ -4,6 +4,12 @@ class GitPsRs < Formula
   url "https://github.com/uptech/git-ps-rs.git", tag: "3.2.0", revision: "584ae9e48c5413e73af865e3799a90688655d23f"
   head "https://github.com/uptech/git-ps-rs.git"
 
+  bottle do
+    root_url "https://github.com/uptech/homebrew-oss/raw/master/Formula"
+    rebuild 1
+    sha256 cellar: :any, monterey: "3d57b6362d96a15def0380eca34899fb9832d086bdabe7cef9f5b305c60de728"
+  end
+
   depends_on "rust" => :build
   depends_on "gpgme"
 
