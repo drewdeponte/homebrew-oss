@@ -10,10 +10,12 @@ class GitPsRs < Formula
   def install
     system "cargo", "install", *std_cargo_args
 
-    # Completion scripts and manpage are generated in the crate's build
+    # Completion scripts are generated in the crate's build
     # directory, which includes a fingerprint hash. Try to locate it first
     out_dir = Dir["target/release/build/gps-*/out"].first
-    # man1.install "#{out_dir}/gps.1"
+    # man1.install "doc/gps-add.1"
+    # exmaple of installing multiple man pages
+    # man1.install "doc/gps-add.1", "doc/gps.1" 
     bash_completion.install "#{out_dir}/gps.bash"
     zsh_completion.install "#{out_dir}/_gps"
   end
