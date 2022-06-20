@@ -1,7 +1,7 @@
 class GitPsRs < Formula
   desc "Git Patch Stack workflow CLI"
   homepage "https://github.com/uptech/git-ps-rs"
-  url "https://github.com/uptech/git-ps-rs.git", tag: "5.2.0", revision: "6a4a7b5deabac08681fd01fe18a89e28f93d4e30"
+  url "https://github.com/uptech/git-ps-rs.git", tag: "5.2.1", revision: "7e79f5b2f1ac583fd957baa8e4c2d16b06fb8154"
   head "https://github.com/uptech/git-ps-rs.git"
 
   depends_on "rust" => :build
@@ -13,7 +13,7 @@ class GitPsRs < Formula
     # Completion scripts are generated in the crate's build
     # directory, which includes a fingerprint hash. Try to locate it first
     out_dir = Dir["target/release/build/gps-*/out"].first
-    # man1.install "doc/gps-add.1"
+    man1.install "doc/gps-add.1"
     # exmaple of installing multiple man pages
     # man1.install "doc/gps-add.1", "doc/gps.1" 
     bash_completion.install "#{out_dir}/gps.bash"
