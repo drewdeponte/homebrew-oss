@@ -1,17 +1,8 @@
 class Alt < Formula
-  desc "Command-line utility to find alternate file"
+  desc "Command-line utility to find alternate files"
   homepage "https://github.com/uptech/alt"
-  url "https://github.com/uptech/alt/archive/v3.4.0.tar.gz"
-  version "3.4.0"
-  sha256 "8a12c1bc4c60c7312b9181cfa78c7673628a9f4398ed4c917fe56a1bc17e57e1"
+  url "https://github.com/uptech/alt.git", tag: "v4.0.0", revision: "86ae6ca55db8f779867f907702363f5db39a1a34"
   head "https://github.com/uptech/alt.git"
-
-  bottle do
-    # root_url "https://homebrew.bintray.com/bottles-oss"
-    root_url "https://github.com/uptech/homebrew-oss/raw/master/Formula"
-    sha256 cellar: :any_skip_relocation, catalina: "60fea07c7562f910b0376c661517642f99cbdc8e430231d375c348c09613c3e9"
-    sha256 cellar: :any_skip_relocation, big_sur: "60fea07c7562f910b0376c661517642f99cbdc8e430231d375c348c09613c3e9"
-  end
 
   depends_on "rust" => :build
 
