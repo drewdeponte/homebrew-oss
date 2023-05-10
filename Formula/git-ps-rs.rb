@@ -1,7 +1,7 @@
 class GitPsRs < Formula
   desc "Git Patch Stack workflow CLI"
   homepage "https://github.com/uptech/git-ps-rs"
-  url "https://github.com/uptech/git-ps-rs.git", tag: "6.6.1", revision: "53baef2db167d9f4137bcf79a030a15975fc598e"
+  url "https://github.com/uptech/git-ps-rs.git", tag: "6.7.0", revision: "90c75c1bcc795ce5890ef60380ad563f8496b01a"
   head "https://github.com/uptech/git-ps-rs.git"
 
   depends_on "rust" => :build
