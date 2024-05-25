@@ -1,8 +1,8 @@
 class Alt < Formula
   desc "Command-line utility to find alternate files"
-  homepage "https://github.com/uptech/alt"
-  url "https://github.com/uptech/alt.git", tag: "v4.1.0", revision: "b075a2603ddd23fc96c2a54df55547c1723e9e86"
-  head "https://github.com/uptech/alt.git"
+  homepage "https://github.com/drewdeponte/alt"
+  url "https://github.com/drewdeponte/alt.git", tag: "v4.1.0", revision: "b075a2603ddd23fc96c2a54df55547c1723e9e86"
+  head "https://github.com/drewdeponte/alt.git"
 
   depends_on "rust" => :build
 
